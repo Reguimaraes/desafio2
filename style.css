@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  list-style: none;
+  width: 50vw;
+  font-family: "Oswald", sans-serif;
+}
+
+.servicos {
+  background-image: url("./imagens/porto2.png");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: left;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  display: flex;
+  font-weight: bold;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
